@@ -1,11 +1,84 @@
+*{
+    background-image: url(download.jpeg) ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
 h1{
     color: blue;
 }
 
-p, li{
-    color: brown;
+p{
+    color: rgb(255, 255, 255);
+    font-size: x-large;
 }
 
 li{
+    color: rgb(161, 114, 114);
     list-style-type:disc;
+}
+
+#github_link {
+    position: absolute;
+    left: 50%;
+    transform: translateY(-50%);
+    font-size: x-large;
+    background-image: none;
+  }
+
+
+a:hover{
+    color: white;
+}
+a{
+    color: blue;
+}
+
+
+li:hover{
+    color: blueviolet;
+    font-size: xx-large;
+}
+
+h1+p{
+    font-size: 150%;
+}
+
+h1{
+    text-align: center;
+}
+
+span{
+    text-align: center;
+}
+
+table{
+    border-color: aliceblue;
+    border-style:groove;
+    color: aliceblue;
+}
+
+.github{
+    text-align: center;
+    font-size: larger;
+}
+
+h3{
+    color: aliceblue;
+}
+
+form{
+    color: aliceblue;
+    background-color: aliceblue;
+}
+
+.email{
+    color: aliceblue;
+    background-color: aliceblue;
+}
+
+input[type="submit"]{
+    background-color: aliceblue;
+    color: aliceblue;
 }

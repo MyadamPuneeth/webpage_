@@ -3,29 +3,88 @@
     <head>
         <link rel="stylesheet" href="style_test_files.css">
         <meta charset="utf-8">
+        <link rel="icon" type="image/png" href="puneeth.png">
         <title>My webpage_</title>
     </head>
     <body>
         <h1>Myadam Puneeth</h1>
-        <img src="puneeth.png" alt="Hero's incoming">
-    
-        <p><b>Experience</b></p>
+
+        <div style="display: flex;">
+            
+            <img src="puneeth.png" alt="Hero's incoming"
+            height="500">
+
+            <div style="width: 10%;"></div>
+
+            <div>
+                <p>
+                    <h3>Experience</h3>
+                    <ul>
+                        <li>Cognine technologies</li>
+                        <li>Gusto- Chairperson</li>
+                        <li>President- Table Tennis SIG</li>
+                    </ul>
+                </p>
+
+                <br>
+                
+                <h3>Education</h3>
+                <ul>
+                    <li>GITAM University, Hyd</li>
+                    <li>Narayana Jr. college</li>
+                    <li>St. Paul's High school</li>
+                </ul>
+
+                <br>
+
+                <h3>Office Time Table</h3>
+
+        <table border="1">
+            <tr align="center">
+                <th width="100">Sunday</th>
+                <th width="100">Monday</th>
+                <th width="100">Tuesday</th>
+                <th width="100">Wednesday</th>
+                <th width="100">Thursday</th>
+                <th width="100">Friday</th>
+                <th width="100">Saturday (alt)</th>
+            </tr>
+            <tr align="center">
+                <td>W-Off</td>
+                <td>9-8</td>
+                <td>9-8</td>
+                <td>9-8</td>
+                <td>9-8</td>
+                <td>9-8</td>
+                <td>9-8</td>
+            </tr>
+
+        </table>
+            </div>            
+
+            <div>
+
+                <p>Stay in touch</p>
+                <form class="email">
+
+                    <label for="username">Email:</label>
+                    <input type="text" placeholder="user@gmail.com" id="username" style="background-color: aliceblue; color: aliceblue;">
+
+                    <br><br>
+
+                    <input type="submit">
+
+                </form>
+            </div>
+
+        </div>
         
-        <ul>
-            <li>Cognine technologies</li>
-            <li>Gusto- Chairperson</li>
-            <li>President- Table_Tennis_SIG</li>
-        </ul>
-        
-        <p><b>Education</b></p>
-        <ul>
-            <li>GITAM University, Hyd</li>
-            <li>Narayana Jr. college</li>
-            <li>St. Paul's High school</li>
-        </ul>
-        
-        <a href="https://github.com/MyadamPuneeth/webpage_">
+        <div class="github">
+            <a href="https://github.com/MyadamPuneeth/webpage_" target="_blank">
             Github page for project code
-        </a>
+            </a>
+        </div>
+            
+
     </body>
 </html>
