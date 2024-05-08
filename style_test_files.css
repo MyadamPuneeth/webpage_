@@ -1,13 +1,11 @@
 *{
-    background-image: url(download.jpeg) ;
+    background-color: #03AED2 ;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-h1{
-    color: blue;
-}
 
 p{
     color: rgb(255, 255, 255);
@@ -15,7 +13,7 @@ p{
 }
 
 li{
-    color: rgb(161, 114, 114);
+    color: white;
     list-style-type:disc;
 }
 
@@ -37,16 +35,14 @@ a{
 
 
 li:hover{
-    color: blueviolet;
+    color: #FEEFAD;
     font-size: xx-large;
 }
 
-h1+p{
-    font-size: 150%;
-}
-
-h1{
+.my_name{
     text-align: center;
+    color: rgb(253, 222, 85);
+    font-size: 500%;
 }
 
 span{
@@ -54,9 +50,18 @@ span{
 }
 
 table{
+    border-collapse: collapse;
     border-color: aliceblue;
-    border-style:groove;
+    border: 3px solid;
     color: aliceblue;
+}
+
+th{
+    border: 3px solid;
+}
+
+td{
+    border: 3px solid;
 }
 
 .github{
@@ -75,10 +80,175 @@ form{
 
 .email{
     color: aliceblue;
-    background-color: aliceblue;
+    background-color: transparent;
 }
 
-input[type="submit"]{
-    background-color: aliceblue;
+.submit{
+    background-color: rgb(253, 222, 85);;
+    color: black;
+    border: none;
+    border-radius: 2px;
+    padding: 5px;
+}
+
+.submit:hover{
+    background-color: blue;
+    color: bisque;
+}
+
+.profile_pic{
+    max-width: 25%;
+    height: 25%;
+    padding: 2%;
+    background-color: transparent;
+}
+
+.email_form{
+    background-color: black;
+    display: inline-block;
+    width: 20%;
+    height: 20%;
+    background-color: transparent;
+}
+
+.summary{
+    display: inline-block;
+    width: 60%;
+    height: auto;
+    overflow: visible;
+    background-color: transparent;
+}
+
+#sl:link{
+    background-color: transparent;
+    text-decoration: none;
+}
+
+   
+
+#h1_in_blocks{
+    color: rgb(161, 114, 114);
+    background-color: #FEEFAD;
+
+}
+
+#p_in_blocks{
+    background-color: #FEEFAD;
+    color: rgb(161, 114, 114);
+}
+
+
+
+.in_blocks{
+    background-color: #FEEFAD;
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: justify;
+    border: 30px solid;
+    border-color: #03AED2;
+    padding: 5%;
+}
+
+.text_style{
     color: aliceblue;
+    background-color: transparent;
+    border-radius: 2px;
+    border: 1px;
+    border-color: white;
+    border-style: solid;
+    font-size: medium;
+    padding: 5px;
+}
+
+.h1_heads{
+    color: aliceblue;
+    padding: 5%;
+    font-size: 300%;
+}
+
+.github_link_button{
+    background-color: rgb(253, 222, 85);
+    font-size: x-large;
+    border: none;
+    padding: 2%;
+    border-radius: 30px;
+    border-color: #03AED2;
+}
+
+.github_link_button:hover{
+    background-color: blue;
+    color: bisque;
+}
+
+.my_summary{
+    display: flex; 
+    background-color:#68D2E8;
+    padding: 5%;
+    border: 30px solid;
+    border-color: #03AED2;
+
+}
+
+.texts{
+    background-color: #68D2E8;
+    font-size: large;
+}
+
+.texts:link{
+    background-color: transparent;
+}
+
+.info_box{
+    overflow: scroll;
+    scrollbar-width: none;
+    height: 500px;
+}
+
+.years{
+    font-size: medium;
+    background-color: #FEEFAD;
+}
+
+h2{
+    color:rgb(253, 222, 85);
+}
+
+.stay{
+    color:rgb(253, 222, 85);
+    background-color:transparent;
+}
+
+.about_me{
+    background-color:#a3ebf9;
+    width: 10%;
+    height: 10%;
+    display: inline-block;
+    padding-left: 2%;
+    padding-bottom: 2%;
+    padding-right: 2%;
+}
+
+.label{
+    width:40%;
+    display: inline-block;
+    text-align: right;
+    background-color:#03AED2;
+}
+
+.input{
+    width:16%;
+    display: inline-block;
+    text-align: center;
+}
+
+.email_form{
+    display: inline-block;
+}
+.submit_button{
+    width: 33%;
+    display: inline-block;
+}
+
+.sstay{
+    text-align: center;
 }

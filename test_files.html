@@ -3,88 +3,162 @@
     <head>
         <link rel="stylesheet" href="style_test_files.css">
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" type="image/png" href="puneeth.png">
         <title>My webpage_</title>
     </head>
     <body>
-        <h1>Myadam Puneeth</h1>
+        <h1 class="my_name">Myadam Puneeth</h1>
 
-        <div style="display: flex;">
+        <div class="my_summary">
             
-            <img src="puneeth.png" alt="Hero's incoming"
-            height="500">
+            <img class="profile_pic" src="puneeth.png" alt="Puneeth's picture">
 
-            <div style="width: 10%;"></div>
+            <div style="width: 5%; background-color: #68D2E8;"></div>
 
-            <div>
+            <div class="summary">
                 <p>
-                    <h3>Experience</h3>
-                    <ul>
-                        <li>Cognine technologies</li>
-                        <li>Gusto- Chairperson</li>
-                        <li>President- Table Tennis SIG</li>
+                    <h2 class="stay">Experience</h2>
+                    <ul class="texts">
+                        <a id="sl" href="#cognine" ><li class="texts">Cognine technologies</li></a>
+                        <a id="sl" href="#gusto"><li class="texts">Gusto- Chairperson</li></a>
+                        <a id="sl" href="#pttsig"><li class="texts">President- Table Tennis SIG</li></a>
                     </ul>
                 </p>
 
                 <br>
                 
-                <h3>Education</h3>
-                <ul>
-                    <li>GITAM University, Hyd</li>
-                    <li>Narayana Jr. college</li>
-                    <li>St. Paul's High school</li>
+                <h2 class="stay">Education</h2>
+                <ul class="texts">
+                    <a id="sl" href="#gitam"><li class="texts">GITAM (Deemed to be university)</li></a>
+                    <a id="sl" href="#njc"><li class="texts">Narayana Jr. college</li></a>
+                    <a id="sl" href="#sphs"><li class="texts">St. Paul's High school</li></a>
+                    
                 </ul>
 
                 <br>
 
-                <h3>Office Time Table</h3>
+                <h2 class="stay">Office Time Table</h2>
 
         <table border="1">
-            <tr align="center">
-                <th width="100">Sunday</th>
-                <th width="100">Monday</th>
-                <th width="100">Tuesday</th>
-                <th width="100">Wednesday</th>
-                <th width="100">Thursday</th>
-                <th width="100">Friday</th>
-                <th width="100">Saturday (alt)</th>
+            <tr align="center" height="50">
+                <th class="texts" width="150">Sunday</th>
+                <th class="texts" width="150">Monday</th>
+                <th class="texts" width="150">Tuesday</th>
+                <th class="texts" width="150">Wednesday</th>
+                <th class="texts" width="150">Thursday</th>
+                <th class="texts" width="150">Friday</th>
+                <th class="texts" width="150">Saturday (alt)</th>
             </tr>
-            <tr align="center">
-                <td>W-Off</td>
-                <td>9-8</td>
-                <td>9-8</td>
-                <td>9-8</td>
-                <td>9-8</td>
-                <td>9-8</td>
-                <td>9-8</td>
+            <tr align="center" height="50">
+                <td class="texts">W-Off</td>
+                <td class="texts">9-8</td>
+                <td class="texts">9-8</td>
+                <td class="texts">9-8</td>
+                <td class="texts">9-8</td>
+                <td class="texts">9-8</td>
+                <td class="texts">9-8</td>
             </tr>
 
         </table>
-            </div>            
-
-            <div>
-
-                <p>Stay in touch</p>
-                <form class="email">
-
-                    <label for="username">Email:</label>
-                    <input type="text" placeholder="user@gmail.com" id="username" style="background-color: aliceblue; color: aliceblue;">
-
-                    <br><br>
-
-                    <input type="submit">
-
-                </form>
+            </div>     
+            
+            <div class="about_me">
+                <h1 class="stay" style="font-size: 250%; text-align: right;">About Me</h1>
             </div>
 
+            <!--  -->
         </div>
-        
+
+        <br><br><br>
+        <br><br><br>
+        <br><br><br>
+
+
         <div class="github">
             <a href="https://github.com/MyadamPuneeth/webpage_" target="_blank">
-            Github page for project code
+            <button class="button github_link_button" type="button">Github link- Code for this webpage</button>
             </a>
         </div>
-            
+        <br><br>
 
+        <h1 class="h1_heads" id="h1_experience">Experience</h1>
+
+        <br>
+        <div class="info_box">
+            <div class="in_blocks" id="cognine">
+                <h1 id="h1_in_blocks">Cognine</h1>
+                <p id="p_in_blocks">Working as a Associate Software Developer at Cognine technologies, Kavuri hills, Madhapur, Hyderabad. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis perspiciatis nam reiciendis eligendi ducimus eum excepturi pariatur, nemo dolor libero, adipisci, distinctio ipsum error explicabo soluta ratione repudiandae deserunt dolorum.</p>
+            </div>
+    
+            <br><br><br>
+            <br><br><br>
+            
+            <div class="in_blocks" id="gusto">
+                <h1 id="h1_in_blocks">Gusto- Chairperson</h1>
+                <p id="p_in_blocks">Worked as Chairperson for Gusto, controlled the whole operation and made the event successful. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis perspiciatis nam reiciendis eligendi ducimus eum excepturi pariatur, nemo dolor libero, adipisci, distinctio ipsum error explicabo soluta ratione repudiandae deserunt dolorum.</p>
+            </div>
+                
+            <br><br><br>
+            <br><br><br>
+    
+            <div class="in_blocks" id="pttsig">
+                <h1 id="h1_in_blocks">President- Table Tennis SIG</h1>
+                <p id="p_in_blocks">Worked as Chairperson for President- Table Tennis SIG, controlled the whole operation and made the event successful. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis perspiciatis nam reiciendis eligendi ducimus eum excepturi pariatur, nemo dolor libero, adipisci, distinctio ipsum error explicabo soluta ratione repudiandae deserunt dolorum.</p>
+            </div>
+
+            <br><br><br>
+        </div>
+
+        <h1 class="h1_heads">Education</h1>
+
+        <br>
+        <div class="info_box">
+            <div class="in_blocks" id="gitam">
+                <h1 id="h1_in_blocks">GITAM (Deemed to be University), Hyderabad
+                <span class="years">(2020-2024)</span>
+                </h1>
+                <p id="p_in_blocks">cgpa: 7.87
+                    <br><br>
+                    Completed B.Tech in Computer science and engineering for GITAM (Deemed to be university), Hyderabad. Also participated in various cultural, literary and sports events, and also represented GITAM in All India University Games in the years 2022, 2023.
+                </p>
+            </div>
+    
+            <br><br><br>
+            <br><br><br>
+            
+            <div class="in_blocks" id="njc">
+                <h1 id="h1_in_blocks">Narayana Jr. College, SR Nagar
+                <span class="years">(2018-2020)</span></h1>
+                <p id="p_in_blocks">Percentage: 83
+                    <br><br>
+                    Completed intermideate with specialisation in subjects Maths, Physics, Chemistry.
+                </p>
+            </div>
+                
+            <br><br><br>
+            <br><br><br>
+    
+            <div class="in_blocks" id="sphs">
+                <h1 id="h1_in_blocks">St. Paul's High School, Hyderguda 
+                <span class="years">(2017-2018)</span></h1>
+                <p id="p_in_blocks">
+                    cgpa: 9.5 <br><br>
+                    Completed schooling from St. Paul's High School, Hyderguda, Hyderabad. Took part in multiple tournaments, olympiads, art convetions, literary and cultural events.
+                </p>
+            </div>
+            <br><br><br>
+        </div>
+
+            <h2 class="sstay">Stay in Touch</h2>
+            <form class="email">
+
+                <div class="label"><label for="username">Email:</label></div>
+                <div class="input"><input class="text_style" type="text" placeholder="user@gmail.com" id="username"></div>
+
+                <div class="submit_button"><input class="submit" type="submit" ></div>
+
+            </form>
+            <br><br><br>
     </body>
 </html>
