@@ -1,0 +1,140 @@
+*{
+    background-color: hsl(190, 97%, 42%);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    font-size: 300%;
+    text-align: center;
+    color: hsl(49, 98%, 66%);
+}
+
+.about_me{
+    display: flex;
+    background-color: hsl(190, 74%, 66%);
+    width: auto;
+    height: auto;
+    border-left: 40px solid;
+    border-right: 40px solid;
+    border-color:hsl(190, 97%, 42%);
+}
+
+
+.img1{
+    background-color: transparent;
+    text-align: center;
+}
+
+.profile_pic{
+    display: inline-block;
+    max-width: 70%;
+    width: 70%;
+    height: auto;
+    position: relative;
+    top: 5%;
+    padding: 50px;
+    background-color: transparent;
+}
+
+.brief{
+    padding: 3%;
+    padding-left: 1%;
+    width: 27%;
+    max-width: 27%;
+    height: auto;
+    background-color: transparent;
+    float: left;
+}
+
+.brief h1{
+    background-color: transparent;
+    font-size: 300%;
+    color:hsl(49, 98%, 66%);
+}
+
+.brief p{
+    font-size: 20px;
+    background-color: transparent;
+    color:white;
+}
+
+.summary{
+    background-color: hsl(190, 74%, 66%);
+    padding: 3%;
+    padding-top: 4%;
+}
+
+.summary h1{
+    background-color: transparent;
+    color:hsl(49, 98%, 66%);
+}
+
+.summary ul{
+    font-size: 20px;
+    background-color: transparent;
+}
+
+.summary li{
+    background-color: transparent;
+    color: white;
+}
+
+.github_link_button{
+    align-self: center;
+    background-color: hsl(49, 98%, 66%);
+    border: none;
+    font-size: x-large;
+    padding: 2%;
+    border-radius: 30px;
+}
+
+.github_link_button:hover{
+    background-color: blue;
+    color: bisque;
+}
+
+.gitbutton{
+    text-align: center;
+}
+
+.exp_edu{
+    height: 500px;
+    overflow: scroll;
+    scrollbar-width: none;
+}
+
+.div_block{
+    background-color:  hsl(49, 98%, 84%);
+    color: rgb(161, 114, 114);
+    border: 80px solid;
+    border-color: hsl(190, 97%, 42%);
+}
+
+.div_block h1{
+    background-color:  hsl(49, 98%, 84%);
+    color: rgb(161, 114, 114);
+    padding: 40px;
+    padding-bottom: 10px;
+}
+
+.div_block p{
+    font-size: x-large;
+    background-color:  hsl(49, 98%, 84%);
+    padding: 40px;
+    padding-top: 10px;
+    color: rgb(161, 114, 114);
+}
+
+.h1_css{
+    color:aliceblue;
+    font-size: 400%;
+    padding-left: 90px;
+    padding-top: 90px;
+}
+
+/* @media only screen and (max-width: 900px){
+    div{
+        width:100%;
+        height: auto;
+    }
+} */
