@@ -252,3 +252,35 @@ h2{
 .sstay{
     text-align: center;
 }
+
+.an_temp_box{
+    display: flex;
+    justify-content: center;
+}
+
+.temp_box{
+    text-align: justify;
+    display: flex;
+    overflow: hidden;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    width: 530px;
+}
+
+.temp_box .fst{
+    padding: 3%;
+    display: inline-block;
+    min-width: 500px;
+}
+
+.temp_box .snd{
+    padding: 3%;
+    min-width: 500px;
+    display: inline-block;
+}
+
+.temp_box .trd{
+    padding: 3%;
+    min-width: 500px;
+    display: inline-block;
+}
