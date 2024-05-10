@@ -132,6 +132,55 @@ header{
     padding-top: 90px;
 }
 
+
+
+.sit1{
+    text-align: center;
+    color: rgb(253, 222, 85);
+}
+
+.fbox{
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.label{
+    display: inline-block;
+}
+
+.input{
+    display: inline-block;
+    padding: 1%;
+}
+
+.submit_button{
+    display: inline-block;
+    padding-top: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+}
+
+.submit{
+    background-color: hsl(49, 98%, 66%);
+    border: none;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.text_style{
+    border-color: aliceblue;
+    padding: 5px;
+    border-style: solid;
+    border-radius: 3px;
+}
+
+.submit:hover{
+    background-color: blue;
+    color: antiquewhite;
+}
+
 /* @media only screen and (max-width: 900px){
     div{
         width:100%;
