@@ -9,6 +9,7 @@ header{
     color: hsl(49, 98%, 66%);
 }
 
+
 .about_me{
     display: flex;
     background-color: hsl(190, 74%, 66%);
@@ -181,9 +182,85 @@ header{
     color: antiquewhite;
 }
 
-/* @media only screen and (max-width: 900px){
-    div{
-        width:100%;
-        height: auto;
-    }
-} */
+footer{
+    background-color: blue;
+}
+
+.footer_box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: blue;
+}
+
+.handels{
+    display: flex;
+    align-items: center;
+    background-color: blue;
+    padding-right: 5%;
+}
+
+.like_logo{
+    width: 50px;
+    background-color: blue;
+}
+
+.like_logo:hover{
+    background-color: aliceblue;
+}
+
+.like_logo_button{
+    background-color: blue;
+    border: none;
+}
+
+.like_logo_button:hover{
+    background-color: aliceblue;
+}
+
+.contact_details{
+    background-color: blue;
+    width: 500px;
+}
+
+.linkedin_logo{
+    background-color: blue;
+    width: 50px;
+}
+
+.insta_logo{
+    background-color: blue;
+    width: 50px;
+}
+
+.likes_counter_div{
+    color: aliceblue;
+    background-color: blue;
+}
+
+.content_info{
+    background-color: blue;
+    color: aliceblue;
+}
+
+.email_info{
+    background-color: blue; 
+    color: rgb(255, 230, 0);
+}
+
+.email_info:hover{
+    color: greenyellow;
+}
+
+.insta_icon_div{
+    background-color: blue;
+}
+
+.linkedin_logo_div{
+    background-color: blue;
+}
+
+#likes_count{
+    background-color: blue;
+}
